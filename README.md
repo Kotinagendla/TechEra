@@ -54,3 +54,37 @@
 - Roboto
 
 </details>
+
+### Completion Instructions
+
+<details>
+
+<summary>Functionality added</summary>
+
+<br/>
+
+The app consists of following functionalities
+
+- The app is opened initially, Home Route should be displayed
+
+- **Home Route**
+  - When the Home Route is opened,
+    - An HTTP GET request should be made to the **coursesApiUrl**
+      - The _loader_ should be displayed while the HTTP request is fetching the data
+      - If the HTTP GET request made is successful, then the list of courses received in response should be displayed
+      - If the HTTP GET request made is unsuccessful, then the [Failure view] should be displayed
+        - When the **Retry** button is clicked, then an HTTP GET request should be made to **coursesApiUrl**
+  - When a course is clicked, then the page should be navigated to the Course Item Details Route
+- **Course Item Details Route**
+  - When the Course Item Details Route is opened,
+    - An HTTP GET request should be made to the **courseDetailsApiUrl** with the `id` as path parameter
+      - The _loader_ should be displayed while the HTTP request is fetching the data
+      - If the HTTP GET request made is successful, then the course details received in response should be displayed
+      - If the HTTP GET request made is unsuccessful, then the [Failure view] should be displayed
+        - When the **Retry** button is clicked, then an HTTP GET request should be made to **courseDetailsApiUrl**
+- **Not Found Route**
+  - When a random path is provided in the URL, then the page should be navigated to the Not Found Route
+- When the **website logo** image is clicked, then the page should be navigated to the Home Route
+
+</details>
+
