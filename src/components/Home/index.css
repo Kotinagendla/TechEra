@@ -1,0 +1,69 @@
+.home-container {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.home-content-container {
+  width: 90%;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.loader-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coureses-failure-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.courese-failure-img {
+  width: 420px;
+  height: 260px;
+}
+
+.course-failure-heading {
+  font-family: 'Roboto';
+  font-size: 27px;
+  color: #475569;
+  margin-bottom: 0;
+}
+
+.course-failure-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 13px;
+}
+
+.course-failure-retry-btn {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  border-width: 0;
+  padding: 6px 20px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: #4656a1;
+}
