@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TechEra/static/css/main.b610a250.chunk.css",
+    "main.js": "/TechEra/static/js/main.affbb45a.chunk.js",
+    "main.js.map": "/TechEra/static/js/main.affbb45a.chunk.js.map",
+    "runtime-main.js": "/TechEra/static/js/runtime-main.5cc222fa.js",
+    "runtime-main.js.map": "/TechEra/static/js/runtime-main.5cc222fa.js.map",
+    "static/js/2.559f7118.chunk.js": "/TechEra/static/js/2.559f7118.chunk.js",
+    "static/js/2.559f7118.chunk.js.map": "/TechEra/static/js/2.559f7118.chunk.js.map",
+    "index.html": "/TechEra/index.html",
+    "static/css/main.b610a250.chunk.css.map": "/TechEra/static/css/main.b610a250.chunk.css.map",
+    "static/js/2.559f7118.chunk.js.LICENSE.txt": "/TechEra/static/js/2.559f7118.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cc222fa.js",
+    "static/js/2.559f7118.chunk.js",
+    "static/css/main.b610a250.chunk.css",
+    "static/js/main.affbb45a.chunk.js"
+  ]
+}
